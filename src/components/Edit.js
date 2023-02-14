@@ -15,7 +15,7 @@ const Edit = ({ todo, onSubmit }) => {
                 onChange={(e) => setTitle(e.target.value)}
             />
             <label htmlFor='text' className='inputLabel'>
-                edit input ...
+    
             </label>
             <button
                 className='button is-primary is-hover is-rounded block'
